@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+/* Header */
+.header {
+    background-color: black ;
+    font-size: 20px;
+}
+
+.header .navbar .navbar-brand img {
+    height: 70px;
+    width: 70px;
+}
+
+.header .navbar .nav-item i {
+    margin-right: 8px;
+}
+
+.header .nav-vl {
+    border-left: 2px solid gold;
+    height: 24px;
+    margin: auto 16px;
+    display: block;
+}
+
+/* header ends */
+
+
+.breadcrumb {
+    background-color: black;
+    font-size: 25px;
+}
+
+h1{
+
+    font-weight: 800;
+    
+}
+.container-fluid{
+    padding: 10rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    
+}
+.row .column{
+    background-color: black;
+    flex: 22.2%;
+    width: auto;
+    overflow: hidden;
+    padding: 0 2px;
+    height: 100%;
+}
+.row .column img{
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    filter: grayscale(1) brightness(1);
+    border-radius: 5px;
+    transition: 0.3s linear;
+}
+.row .column img:hover{
+    filter: grayscale(0) brightness(1);
+}
+
+.carousel img {
+    height: 700px;
+    object-fit: cover;
+}
+.item{
+    transition: .5s ease-in-out;
+
+}
+.item:hover{
+    filter: brightness(80%);
+}
+
+
+.img-responsive{
+    margin: 8px;
+    transition: 0.5s ease;
+
+}
+.img-responsive:hover{
+    box-shadow: 4px 5px 5px 4px #888888;
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-family: Open Sans;
+    font-size: 70px;
+}
+p{
+    font-family: Open Sans;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  background-color:black;
+}
+.jumbotron__background {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  opacity:0.5;
+}
+.jumbotron .container {
+  z-index: 2;
+  position: relative;
+  padding-left: 70px;
+}
+
+
+
+
+
+
+footer{
+    background: rgb(0, 0, 0);
+    font-size: 25px;
+
+}
+a:link{
+    color: #fff;
+    text-decoration: none;
+}
+a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+a:active{
+    color: #fff;
+    text-decoration: none;
+}
